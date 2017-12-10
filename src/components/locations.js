@@ -17,7 +17,7 @@ function Locations(props) {
 
   return (
     <tr>
-      <th>Locations</th>
+      <th colSpan="2">Locations</th>
       {renderLocations()}
     </tr>
   );
